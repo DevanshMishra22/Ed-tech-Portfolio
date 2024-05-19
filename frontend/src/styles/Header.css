@@ -1,0 +1,76 @@
+/* Styles for Navbar */
+.navbar {
+  background-color: #fef6e1;
+  padding: 1rem;
+  /* Add padding for better spacing */
+}
+
+.navigationbar {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allow items to wrap to the next line */
+  justify-content: center;
+  gap: 1rem;
+  /* Reduce the gap between items */
+  list-style: none;
+  /* Remove bullet points from the list */
+  padding: 0;
+  /* Remove default padding */
+  margin: 0;
+  /* Remove default margin */
+}
+
+.navigationbar li {
+  margin-right: 1rem;
+  /* Add spacing between list items */
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-right: auto;
+  /* Push the logo to the left */
+}
+
+.navigationbar a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  /* Add padding to links for better touchability */
+}
+
+.btn {
+  /* Adjust button padding */
+  color: #fff;
+  background-color: #050505;
+  border-radius: 5px;
+  height: 2rem;
+}
+
+/* Media Query for Responsive Design */
+@media only screen and (max-width: 768px) {
+  .navigationbar {
+    justify-content: flex-start;
+    /* Align items to the start */
+  }
+
+  .logo {
+    margin-right: 0;
+    /* Reset margin for logo */
+    margin-bottom: 1rem;
+    /* Add space below logo */
+  }
+
+  .navigationbar li {
+    margin-right: 0;
+    /* Remove margin between list items */
+    margin-bottom: 0.5rem;
+    /* Add space below each list item */
+  }
+
+  .btn {
+    margin-left: auto;
+    /* Push the button to the right */
+  }
+}

@@ -1,0 +1,48 @@
+.container_midpage{
+  background-color: #f8f3ef;
+  height: 28rem;
+  display: flex;
+}
+.content_midpage h2{
+  margin-top: 5rem;
+  font-size: 2.5rem;
+  flex-wrap: wrap;
+  
+}
+.hero_midpage{
+  margin-left: 7rem;
+}
+.hero_midpage img{
+width: 20rem;
+height: 20rem;
+}
+.content_midpage p{
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: grey;
+line-height: 25px;
+  flex-wrap: wrap;
+}
+.content_midpage{
+  margin-left: 4rem;
+
+}
+.wrapper_mid{
+  margin-top: 4rem;
+  justify-content: center;
+  display: flex;
+
+}
+.button_mid{
+    color: #ffffff;
+    margin-top: 2rem;
+      font-size: 15px;
+      background-color: rgb(5, 5, 5);
+      border-radius: 7px;
+      height: 40px;
+      width: 100px;
+}
+.button_mid:hover {
+  cursor: pointer;
+  background-color: rgb(61, 56, 56);
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.container_about{
+  height: 50vh;
+}
+
+.headinga{
+  display: flex;
+  word-spacing: 7px;
+  justify-content: center;
+ margin-top: 8rem ;
+ margin-bottom:  2rem ;
+  font-size: 2.5rem;
+  font-family: "Roboto Condensed", sans-serif; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.grid-item {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  height: 10rem;
+}
+
+.grid-item h2 {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.grid-item p {
+  margin-bottom: 25px;
+}
+
+.buttona {
+  background-color: transparent;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.yellbtn:hover{
+  background-color: #e7a93c;
+  color:#ffffff;
+  border: none;
+}
+.pnkbtn:hover{
+  background-color: #ed81a5;
+  color:#ffffff;
+  border: none;
+}
+.purbtn:hover{
+  background-color: #746dc6;
+  color:#ffffff;
+  border: none;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.pnkbtn{
+  border: 2px solid #ffb7d2;
+  border-radius: 6px;
+  color: #ffb7d2;
+}
+
+.purbtn{
+  border: 2px solid #b9b3fb;
+  border-radius: 6px;
+  color: #b9b3fb;
+}
+.yellbtn{
+  border: 2px solid #fade90;
+  border-radius: 6px;
+  color: #d7bc70;
+}
+#pink{
+  background-color:#ffdee9;
+}
+
+#yellow{
+  background-color: #fef6e1;
+}
+#purple{
+  background-color: #e8e6fe;
+}

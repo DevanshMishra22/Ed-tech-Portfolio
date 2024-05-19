@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+background-color: #fef6e1;
+display: flex;
+height: 80vh;
+}
+.hero_image{
+  margin: 0 10% 0 0%;
+  display: flex;
+  height: 17rem;
+  width: 50%;
+  height: 80vh;
+  
+}
+.hero_image img{
+width: 100%;
+height: 100%;
+}
+.hero_content{
+  margin: 0 0 0 10%;
+height: 17rem;
+width: 50%;
+  height: 80vh;
+
+}
+
+.heading_main{
+  margin-top: 3rem;
+    font-size: 4.3rem;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .para_hero{
+    margin-top: 2rem;
+    color: #808080;
+    
+  }
+  .input_hero{
+    margin-top: 3rem;
+    padding: 8px 4px 8px 4px;
+    width:17rem;
+    border: none;
+    height: 25px;
+    background-color: #e3e8ec;
+    border-radius: 7px;
+  }
+  .btn{
+    margin-left: 1.5rem;
+    color: #ffffff;
+    font-size: 15px;
+  background-color: rgb(5, 5, 5);
+  border-radius: 7px;
+  height: 40px;
+  width: 90px;
+
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: rgb(61, 56, 56);
+}
+.stats{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.main_card h3{
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: cursive;
+  
+}
+.para{
+  margin-top: 10px;
+  color: #808080;
+}
+.brands_banner {
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  background-color: #f1f1fd;
+ }
+
+
+
+/* Animation for Heading */
+.heading_main {
+  animation: slideInFromLeft 1s ease forwards;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Animation for Paragraph */
+.para_hero,
+.stats,
+.input_hero 
+.stats {
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation for Image */
+.hero_image img {
+  transition: transform .5s ease;
+}
+
+.hero_image img:hover {
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 1100px) {
+
+.hero_image {
+    margin: 0 10% 0 0%;
+    display: flex;
+    width: 50%;
+    height: 80vh;
+
+  }
+  .hero_image img{
+    width: 100%;
+    height: 100vh;
+  }
+.heading_main{
+  font-size: 2.5rem;
+}
+.container{
+  height: 100vh;
+}
+.input_hero{
+margin-top: 1.5rem;
+  padding: 5px 4px 8px 5px;
+  width: 12rem;
+  height: 18px;
+}
+    .btn {
+      margin-left: 1rem;
+      font-size: 10px;
+      height: 30px;
+      width: 80px;
+  
+    }
+}
+@media screen and (max-width: 838px) {
+  .stats{
+    margin-top: 2rem;
+   font-size: 0.5rem;
+  }
+}

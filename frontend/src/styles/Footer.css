@@ -1,0 +1,46 @@
+
+
+.rigth_div{
+  padding: 8% 2% 2% 8%;
+  width: 25%;
+
+
+}
+.rigth_div h1{
+  height: 2rem;
+}
+.Wrapperfooter{
+  background-color:#f8f3ef;
+  height: 35vh;
+  display: flex;
+}
+.icon_footer{
+  margin-top: 10%;
+  display: flex;
+  gap: 4%;
+
+}
+.iconf{
+  height: 8%;
+  width: 8%;
+  border-radius: 20%;
+}
+.left_div{
+ display: flex;
+padding-top: 7%;
+ gap: 10%;
+  
+}
+.list_footer a{
+  text-decoration: none;
+}
+.list_footer li{
+  margin: 1rem 0 1rem 0;
+color: grey;
+list-style: none;
+
+}
+.list_footer{
+  width: 15rem;
+}
+

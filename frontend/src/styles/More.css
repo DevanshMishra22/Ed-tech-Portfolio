@@ -1,0 +1,70 @@
+.conatiner_more{
+  height: 50vh;
+}
+
+.all{
+  display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  justify-content: center;
+  }
+
+.conatiner_more h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.info_card{margin-top: 2rem;
+
+border-radius: 7px;
+  width: 25%;
+  height: 5rem;
+  display: flex;
+ background-color: #e8e6fe;
+}
+.info_card h4{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+.info_card p{
+font-size: 13px;
+color: grey;
+display: flex;
+flex-wrap: wrap;
+padding: auto;
+
+}
+.content_more{
+  display: flex;
+    flex-wrap: wrap;
+}
+.icon{
+  background-color: #b0acff;
+  margin: 6px;
+  border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+}
+.icon_main{
+  color: #fff;
+
+  width: 2rem;
+  height: 2rem;
+}
+.yellow{
+background-color: #fef6e1;
+}
+.yellow_icon{
+  background-color: #fecc49;
+}
+.pink{
+background-color: #fddce7;
+}
+.pink_icon{
+  background-color: #ff80ab;
+}

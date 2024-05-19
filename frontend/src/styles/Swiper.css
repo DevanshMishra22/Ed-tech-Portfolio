@@ -1,0 +1,12 @@
+.heading_Swipper{
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4.2rem;
+  padding-top: 4rem;
+}
+.container_swipper{
+  height: 60vh;
+  background-color: #f8f3ef;
+}

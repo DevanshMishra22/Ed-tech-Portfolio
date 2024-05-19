@@ -1,0 +1,28 @@
+.container_newsletter h1{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Input{
+  height: 2.2rem;
+width: 19rem;
+border: none;
+border-bottom: 2px solid gray;
+margin: 0 5px 40px 5px;
+}
+.subscribeButton{
+  width: 18rem;
+  margin-left: 4px;
+}
+.formwrapper{
+width: 100%;
+height: 220px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
